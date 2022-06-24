@@ -237,6 +237,36 @@ h2{
 .overview_balance.youtube{
     color: #DC414C;
 }
+@media (max-width: 2600px) {
+    header
+    {
+        margin: 2% 10% 3% 10%;
+        height: 30%;
+    }
+    #title_container{
+        width: 80%;
+    }
+    #title_container p{
+        color: #8E8E91;
+        font-size: 12px;
+    }
+    #button_container{
+        width: 20%;
+    }
+    #social_network_container{
+        margin: -2% 10% 0% 10%;
+        justify-content: space-between;
+    }
+    #daily_overview_container{
+        margin-top: -5%;
+        padding-top: 10rem;
+        flex-direction: row;
+    }
+    .overview_social_network_container{
+        width: 20%;
+        margin-bottom: 3%;
+    }
+}
 @media (max-width: 1440px) {
     header{
         margin: 2% 10% 3% 10%;

@@ -1,10 +1,11 @@
 body{
     width: 100%;
+    height: 100%;
     font-family: 'Red Hat Text';
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
+
 #container{
     display: flex;
     background-image: url("../images/pattern-background-desktop.svg");
@@ -16,6 +17,7 @@ body{
     margin-bottom: 2%;
     justify-content: center;
 }
+
 #order-card{
     width: 25rem;
     height: 35rem;
@@ -84,6 +86,10 @@ a{
     box-shadow: 0px 6px 15px -5px #000000;
 }
 
+.attribution
+{
+    margin-left: 45%;
+}
 @media (max-width: 375px){
     body{
         width: 100%;
