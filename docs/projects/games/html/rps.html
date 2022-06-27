@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../styles/main.css">
+    <link rel="stylesheet" href="./../styles/rps.css">
+    <title>Games by Daniel Nieto</title>
+</head>
+<body>
+    <header class="game-header">
+        <a href="./../index.html"><button>Take me back</button></a>
+        <h1>Rock Paper Scissors</h1>
+        <p>RULES: If you beat the machine 3 times in a row, you will win the game. If you lose 3 times in a row, you will lose the game.</p>
+    </header>
+    <main class="game-container">
+        <div>
+            <h2>User</h2>
+            <div class="img-choice-container">
+                <img id="img-choice-user" class="img-choice" >
+            </div>
+            <div class="choice-container">
+                <h3>Make your choice</h3>
+                <button id="rock" name="button-name" class="button-choice">Rock</button>
+                <button id="paper" name="button-name" class="button-choice">Paper</button>
+                <button id="scissors" name="button-name" class="button-choice">Scissors</button>
+            </div>
+        </div>
+        <div>
+            <h2>Machine</h2>
+            <div class="img-choice-container">
+                <img id="img-choice-machine" class="img-choice">
+            </div>
+            <div class="choice-container">
+                <h3>Machine's choice:</h3>
+                <p id="machine-choise"></p>
+            </div>
+        </div>
+        <div id="result-container">
+            <h2>Score</h2>
+            <div id="score-container">
+                <h3>You</h3>
+                <h3>Machine</h3>
+                <div class="score"></div>
+                <div class="score"></div>
+                <div class="score"></div>
+                <div id="message-result"></div>
+                <button id="button-restart">Game again!</button>
+            </div>
+        </div>
+    </main>
+    <script src="./../scripts/rps.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.game-container{
+    width: 98%;
+    position: absolute;
+    min-height: 35rem;
+    margin-top: 3rem;
+}
+
+.blocks-container{
+    width: 100%;
+    height: 30%;
+    background-color: brown;
+}
+
+.row-blocks{
+    display: flex;
+    width: 100%;
+    height: 33%;
+    background-color: blue;
+}
+
+.block{
+    margin-left: 40px;
+    width: 6%;
+    height: 50%;
+    background-color: beige;
+}
+
+.user-block{
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    background-color: aqua;
+}
+
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: brown;
+}

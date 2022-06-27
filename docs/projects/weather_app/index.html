@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Weather App</h1>
+        <nav class="navbar1">
+            <button class="btn-top-city">Bogota</button>
+            <button class="btn-top-city">Uyuni</button>
+            <button class="btn-top-city">São Paulo</button>
+            <button class="btn-top-city">Buenos Aires</button>
+            <button class="btn-top-city">New York</button>
+            <button class="btn-top-city">London</button>
+            <button class="btn-top-city">Barcelona</button>
+            <button class="btn-top-city">Paris</button>
+            <button class="btn-top-city">Amsterdam</button>
+            <button class="btn-top-city">Istambul</button>
+            <button class="btn-top-city">Tokyo</button>
+            <button class="btn-top-city">Beijing</button>
+        </nav>
+    </header>
+    <main>
+        <div class="city-info">
+            <h1 class="city-title"></h1>
+            <span class="city-country"></span>
+            <span class="city-date"></span>
+            <span class="city-time"></span>
+            <span class="city-weather-description"></span>
+        </div>
+        <div class="city-weather-info">
+            <div class="city-temperature-container">
+                <span class="degree-temperature"></span>
+                <span class="temperature-convension">°C</span>
+            </div>
+            <div class="city-weather-icon-container">
+                <canvas id="icon1" width="120" height="120"></canvas>
+            </div>
+        </div>
+    </main>
+    <nav class="navbar2">
+        <button class="btn-top-city">Madrid</button>
+        <button class="btn-top-city">Toronto</button>
+        <button class="btn-top-city">Sydney</button>
+        <button class="btn-top-city">Berlin</button>
+        <button class="btn-top-city">Vienna</button>
+        <button class="btn-top-city">Moscow</button>
+        <button class="btn-top-city">Rome</button>
+        <button class="btn-top-city">Washington</button>
+        <button class="btn-top-city">Quito</button>
+        <button class="btn-top-city">Dubai</button>
+        <button class="btn-top-city">Singapore</button>
+        <button class="btn-top-city">Doha</button>
+    </nav>
+    <script src="app.js"></script>
+    <script src="skycons.js"></script>
+</body>
+</html>
